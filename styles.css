@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr 0.2fr 0.2fr;
     justify-items: center;
     align-items: center;
     
@@ -34,5 +34,13 @@ h1 {
     align-items: center;
 }
 
+.whoTurn {
+    margin: 0;
+    font-size: 20px;
+}
+
+button {
+    margin: 0;
+}
 
 
